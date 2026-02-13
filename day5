@@ -1,0 +1,151 @@
+// today we have been doing the mini blogger using html and css
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+body{
+    background: linear-gradient(to left, rgb(149, 25, 238), rgb(99, 15, 88));
+}
+.Main{
+
+    width: 100vw;
+    height: 100%;
+}
+
+.box{
+    width: 30vh;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 150px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sub1{
+    background-color: red;
+      position: absolute;
+    top: 30vh;
+    left: 20vh;
+}
+.sub2{
+    background-color: green;
+    position: absolute;
+    top: 30vh;
+    left: 60vh;
+}
+.sub3{
+    background-color: chocolate;
+      position: absolute;
+    top: 30vh;
+    left: 100vh;
+}
+.sub4{
+    background-color: cyan;
+    position: absolute;
+      position: absolute;
+    top: 30vh;
+    left: 140vh;
+   
+}
+.sub5{
+
+
+}
+.sub5 img{
+    position: sticky;
+    top: 5vh;
+    width: 300px;
+    height: 100px;
+}
+.Main2{
+    position: absolute;
+    margin-top: 34vw;
+    width: 100vw;
+    height: 100%;
+    background-color: blueviolet;
+    
+}
+.Main:hover .sub1{
+
+        background-color: aliceblue;
+        border: 8px solid green;
+        color: rgb(237, 13, 13);
+        transform: rotate(-10deg);
+        left: 15vw;
+        transition: all 0.5s ease-in-out;
+}
+.Main:hover .sub2{
+      background-color: aliceblue;
+        border: 8px solid green;
+        color: rgb(64, 199, 26);
+        transform: rotate(10deg);
+        left: 30vw;
+         transition: all 0.5s ease-in-out;
+
+}
+.Main:hover .sub3{
+      background-color: aliceblue;
+        border: 8px solid green;
+        color: rgb(13, 82, 167);
+        transform: rotate(-10deg);
+        left: 45vw;
+         transition: all 0.5s ease-in-out;
+
+}
+.Main:hover .sub4{
+      background-color: aliceblue;
+        border: 8px solid green;
+        color: rgb(237, 233, 24);
+        transform: rotate(10deg);
+        left: 60vw;
+         transition: all 0.5s ease-in-out;
+
+}
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="Main">
+
+
+        <div class=" box sub1">
+            M
+
+        </div>
+        <div class=" box sub2">
+            I
+
+        </div>
+        <div class=" box sub3">
+            N
+
+        </div>
+        <div class=" box sub4">
+            E
+
+        </div>
+        <div class=" box sub5">
+
+<img src="data:image/webp;base64,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" alt="">
+        </div>
+    </div>
+    
+    <div class="Main2">
+
+    </div>
+        
+
+</body>
+</html>
