@@ -1,0 +1,151 @@
+in day6 we moved to little bit more html
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+    margin: 0;
+    list-style-type: none;
+    }
+    body{
+        background-color:white;
+        
+    }
+.Main1{
+
+    }
+
+    .Main1 Img{
+      
+        width: 100vw;
+        height: 100vh;
+
+    }
+    .Main1 .image:hover{
+
+     width: 120vw;
+        height: 120vh;
+
+    }
+   
+
+    .sub11{
+         background-color: transparent;
+         position: absolute;
+         right: 40px;
+         top: 10px;
+        }
+        
+        .sub11 img{
+        background-color: transparent; 
+        width: 50px;
+        height: 50px;
+    }
+    .sub12 img{
+      
+        width:100px;
+        height: 60px;
+    }
+    .sub12{
+         
+        position: absolute;
+        left: 50px;
+        top:20px;
+    }
+    li{
+        display: inline;
+        margin-right: 20px;
+    }
+    .sub13{
+        background-color: transparent;
+        position: absolute; 
+        justify-content: space-;
+        top:15vh;
+        left: 50px;
+        color: silver;
+        justify-content: space-between;
+    }
+   
+    .sub13:hover li{
+      transform: translateY(2px);
+        transition: all 0.3s ease-in-out;
+    }
+    .sub14{
+         transition: all 1s ease-in-out;
+         
+        background-color: transparent;
+        font-size: 50px;
+        text-align: center;
+        position:absolute;
+        top: 76vh;
+        left: 20vw;
+        color: silver;
+        opacity: 0.3;
+    }
+    .Main1:hover .sub14{
+        transform: scaleX(1.1);
+    opacity: 0.6;
+    bottom: 5vh;
+
+         
+    }
+    span{
+        color: green;
+    }
+    /* .sub13 td:hover{
+    transition: all 2s ease-in-out;
+    padding-bottom: 10px;
+    color: green;
+    } */
+    li:hover{
+        transition: all 2s ease-in-out;
+    padding-bottom: 10px;
+    color: green;
+    cursor: pointer;
+
+    }
+</style>
+</head>
+<body>
+    
+
+
+
+    <div class="Main1">
+<img src="https://th.bing.com/th/id/R.23e58d90ada46922a1fd06908232c35c?rik=Niv27J%2b2INsuYw&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f78%2f42%2f4at6U2.jpg&ehk=C2J%2bSjGhXdnV4kEOxjo597vPNHvp%2f6UmoMCvwfRYQHU%3d&risl=&pid=ImgRaw&r=0" alt="#" id="image">
+   
+<div class="sub11">
+    
+<img src="https://th.bing.com/th/id/OIP.sOZmwmWN4e5K3eBaUJBkAQHaJV?w=143&h=180&c=7&r=0&o=7&cb=defcachec2&dpr=1.3&pid=1.7&rm=3" alt="">
+</div>
+<div class="sub12">
+    <img src="https://th.bing.com/th/id/OIP._5_GuAV0PBGa7FtpPYNmegHaHk?w=163&h=180&c=7&r=0&o=7&cb=defcachec2&dpr=1.3&pid=1.7&rm=3" alt="">
+
+</div>
+
+<div class="sub13">
+
+<ul>
+    <li>Home</li>
+    <li>Contact</li>
+    <li>Setting</li>
+    <li>About</li>
+
+</div>
+
+
+<div class="sub14">
+
+    <h1>Bugatti Veyron <span>Hover</span></h1>
+
+
+</div>
+
+</div>
+</body>
+</html>
